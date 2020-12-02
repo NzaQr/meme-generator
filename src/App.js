@@ -1,8 +1,13 @@
 import React from "react";
-
+import Header from "./components/Header";
+import MemeGenerator from "./components/MemeGenerator";
+import style from "./style.css";
 function App() {
   return (
-    <div>{this.state.isLoading ? <h1>Loading...</h1> : <Conditional />}</div>
+    <div>
+      <Header />
+      <MemeGenerator />
+    </div>
   );
 }
 export default App;
